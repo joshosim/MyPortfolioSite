@@ -16,7 +16,7 @@ import {
   FaCss3,
 } from "react-icons/fa";
 const HomePage = () => {
-  const [navState, setNavState] = useState(false);
+  const [navState, setNavState] = useState(true);
   const toggle = () => {
     setNavState(!navState);
   };
