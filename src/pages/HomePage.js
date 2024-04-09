@@ -2,6 +2,7 @@ import React from "react";
 import UkaPhoto from "../images/uka.png";
 import OsimUkaPhoto from "../images/osimuka.jpg";
 import { FaBars, FaLinkedin, FaPhone } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import {
   FaFacebookSquare,
   FaInstagramSquare,
@@ -159,10 +160,7 @@ const HomePage = () => {
                 </p>
                 <p>Linkedin Connections</p>
                 <button className="rounded-3xl py-1 px-10 border-[1px] border-black font-bold hover:bg-black hover:text-white hover:duration-300 ease-in-out">
-                  <a
-                    href="https://www.linkedin.com/in/uka-osim-9761601a0/"
-                    target="_blank"
-                  >
+                  <a href="https://www.linkedin.com/in/uka-osim-9761601a0/">
                     Follow
                   </a>
                 </button>
@@ -182,12 +180,7 @@ const HomePage = () => {
                 </p>
                 <p>Facebook Followers</p>
                 <button className="rounded-3xl py-1 px-10 border-[1px] border-black font-bold hover:bg-black hover:text-white hover:duration-300 ease-in-out">
-                  <a
-                    href="https://www.facebook.com/uka.osim.56/"
-                    target="_blank"
-                  >
-                    Follow
-                  </a>
+                  <a href="https://www.facebook.com/uka.osim.56/">Follow</a>
                 </button>
               </div>
             </div>
@@ -205,9 +198,7 @@ const HomePage = () => {
                 </p>
                 <p>Instagram Followers</p>
                 <button className="rounded-3xl py-1 px-10 border-[1px] border-black font-bold hover:bg-black hover:text-white hover:duration-300 ease-in-out">
-                  <a href="https://www.instagram.com/ukaosim/" target="_blank">
-                    Follow
-                  </a>
+                  <a href="https://www.instagram.com/ukaosim/">Follow</a>
                 </button>
               </div>
             </div>
