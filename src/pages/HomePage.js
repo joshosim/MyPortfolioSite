@@ -2,7 +2,7 @@ import React from "react";
 import UkaPhoto from "../images/uka.png";
 import OsimUkaPhoto from "../images/osimuka.jpg";
 import { FaBars, FaLinkedin, FaPhone } from "react-icons/fa";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import {
   FaFacebookSquare,
   FaInstagramSquare,
@@ -31,7 +31,7 @@ const HomePage = () => {
           </ul>
           <FaBars size={20} className="block md:hidden" />
           <button className="hidden md:block border-2 border-black py-2 px-6 font-semibold text-black rounded-3xl hover:bg-black hover:duration-300 hover:text-white">
-            Contact Me
+            <a href="tel: +2347066530998">Contact Me</a>
           </button>
           <button className="md:hidden border-2 border-black py-2 px-6 font-semibold text-black rounded-3xl">
             <FaPhone size={20} />
@@ -102,7 +102,7 @@ const HomePage = () => {
                   <p>Experience</p>
                 </div>
                 <div>
-                  <p>01+</p>
+                  <p>02+</p>
                   <p>Clients</p>
                 </div>
               </div>
@@ -136,7 +136,7 @@ const HomePage = () => {
                   <p>Experience</p>
                 </div>
                 <div>
-                  <p>01+</p>
+                  <p>03+</p>
                   <p>Clients</p>
                 </div>
               </div>
@@ -216,7 +216,9 @@ const HomePage = () => {
                 </p>
                 <p>Twitter Followers</p>
                 <button className="rounded-3xl py-1 px-10 border-[1px] border-black font-bold hover:bg-black hover:text-white hover:duration-300 ease-in-out">
-                  Follow
+                  <a href="https://x.com/teamjojo_code?t=nfKgPXx7JQdazld0RzhgCQ&s=09">
+                    Follow
+                  </a>
                 </button>
               </div>
             </div>
@@ -295,22 +297,25 @@ const HomePage = () => {
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div>
               <div className="h-[150px] md:h-[250px] w-full md:w-[350px] bg-blue-100 rounded-3xl"></div>
-              <h1>
-                <Link to="https://jojocodeeduhub.netlify.app/">
+              <h1 className="font-bold mt-4 text-center">
+                <a href="https://jojocodeeduhub.netlify.app/">
                   TJJC Online Store
-                </Link>
+                </a>
               </h1>
-              <p>$33.00</p>
             </div>
             <div>
               <div className="h-[150px] md:h-[250px] w-full md:w-[350px] bg-blue-100 rounded-3xl"></div>
-              <h1>Smart travel tent with adjuster</h1>
-              <p>$33.00</p>
+              <h1 className="font-bold mt-4 text-center">
+                <a href="https://paraganinvest.com.ng/">
+                  Paragan Investment Site
+                </a>
+              </h1>
             </div>
             <div>
               <div className="h-[150px] md:h-[250px] w-full md:w-[350px] bg-blue-100 rounded-3xl"></div>
-              <h1>Smart travel tent with adjuster</h1>
-              <p>$33.00</p>
+              <h1 className="font-bold mt-4 text-center">
+                Smart travel tent with adjuster
+              </h1>
             </div>
           </div>
           <div className="grid place-content-center ">
