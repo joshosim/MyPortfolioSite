@@ -6,3 +6,36 @@
 body {
   font-family: 'Quicksand';
 }
+
+@keyframes slide-down {
+  from {
+    transform: translateY(-100%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-100%);
+  }
+}
+
+.drawer {
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+}
+
+.drawer.open {
+  animation-name: slide-down;
+}
+
+.drawer.close {
+  animation-name: slide-up;
+}

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import UkaPhoto from "../images/uka.png";
 import OsimUkaPhoto from "../images/osimuka.jpg";
 import { FaBars, FaLinkedin, FaPhone } from "react-icons/fa";
@@ -9,6 +9,11 @@ import {
   FaTwitterSquare,
 } from "react-icons/fa";
 const HomePage = () => {
+  const [navState, setNavState] = useState(false);
+  const toggle = () => {
+    setNavState(!navState);
+  };
+
   return (
     <div className="scroll-smooth">
       <div className="pt-4 bg-[#BBDEFA]">
@@ -20,16 +25,13 @@ const HomePage = () => {
               Home
             </li>
             <li className="font-bold hover:text-gray-500 cursor-pointer">
-              Service
+              About
             </li>
             <li className="font-bold hover:text-gray-500 cursor-pointer">
-              Work
-            </li>
-            <li className="font-bold hover:text-gray-500 cursor-pointer">
-              Shop
+              Projects
             </li>
           </ul>
-          <FaBars size={20} className="block md:hidden" />
+          <FaBars size={20} className="block md:hidden" onClick={toggle} />
           <button className="hidden md:block border-2 border-black py-2 px-6 font-semibold text-black rounded-3xl hover:bg-black hover:duration-300 hover:text-white">
             <a href="tel: +2347066530998">Contact Me</a>
           </button>
@@ -39,8 +41,29 @@ const HomePage = () => {
             </a>
           </button>
         </div>
+        {navState === false && (
+          <div
+            className={
+              !navState
+                ? `drawer open border-b border-black m-0 py-2`
+                : `drawer close border-b border-black m-0 py-2`
+            }
+          >
+            <ul className="flex flex-col items-center justify-between gap-5 ">
+              <li className="font-bold hover:text-gray-500 cursor-pointer">
+                Home
+              </li>
+              <li className="font-bold hover:text-gray-500 cursor-pointer">
+                About
+              </li>
+              <li className="font-bold hover:text-gray-500 cursor-pointer">
+                Projects
+              </li>
+            </ul>
+          </div>
+        )}
         {/* homecontent */}
-        <div className="bg-[#BBDEFA] my-[4rem] grid grid-cols-1 md:grid-cols-2 gap-[4rem] md:gap-[8rem] px-[1rem] md:px-[5rem]">
+        <div className="bg-[#BBDEFA] mt-[1rem] mb-[4rem] grid grid-cols-1 md:grid-cols-2 gap-[4rem] md:gap-[8rem] px-[1rem] md:px-[5rem]">
           <div>
             <p className="font-extrabold mb-[1rem]">
               Say Hi to <span className="text-pink-500">Osim Uka</span>
