@@ -304,7 +304,11 @@ const HomePage = () => {
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div>
               <div className="h-[150px] md:h-[250px] w-full md:w-[350px] bg-blue-100 rounded-3xl"></div>
-              <h1>Smart travel tent with adjuster</h1>
+              <h1>
+                <Link to="https://jojocodeeduhub.netlify.app/">
+                  TJJC Online Store
+                </Link>
+              </h1>
               <p>$33.00</p>
             </div>
             <div>
