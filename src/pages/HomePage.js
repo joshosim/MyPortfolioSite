@@ -34,7 +34,9 @@ const HomePage = () => {
             <a href="tel: +2347066530998">Contact Me</a>
           </button>
           <button className="md:hidden border-2 border-black py-2 px-6 font-semibold text-black rounded-3xl">
-            <FaPhone size={20} />
+            <a href="tel: +2347066530998">
+              <FaPhone size={20} />
+            </a>
           </button>
         </div>
         {/* homecontent */}
