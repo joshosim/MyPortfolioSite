@@ -1,12 +1,19 @@
 import React, { useState } from "react";
 import UkaPhoto from "../images/uka.png";
 import OsimUkaPhoto from "../images/osimuka.jpg";
-import { FaBars, FaLinkedin, FaPhone } from "react-icons/fa";
+
 // import { Link } from "react-router-dom";
 import {
+  FaBars,
+  FaLinkedin,
+  FaPhone,
   FaFacebookSquare,
   FaInstagramSquare,
   FaTwitterSquare,
+  FaJs,
+  FaHtml5,
+  FaReact,
+  FaCss3,
 } from "react-icons/fa";
 const HomePage = () => {
   const [navState, setNavState] = useState(false);
@@ -98,7 +105,12 @@ const HomePage = () => {
             <img src={OsimUkaPhoto} alt={UkaPhoto} className="object-cover" />
           </div>
         </div>
-        <div className="bg-black h-14"></div>
+        <div className="bg-black h-14 flex justify-between items-center py-4 px-6">
+          <FaJs color="yellow" size={40} />
+          <FaHtml5 color="orange" size={40} />
+          <FaReact color="doggedBlue" size={40} />
+          <FaCss3 color="yellow" size={40} />
+        </div>
         {/* aboutme */}
         <div className="bg-white py-[4rem] px-[1rem] md:px-[5rem]">
           <h1 className="text-center font-extrabold text-4xl mb-[2rem]">
