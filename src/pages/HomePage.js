@@ -14,6 +14,7 @@ import {
   FaHtml5,
   FaReact,
   FaCss3,
+  FaGithub,
 } from "react-icons/fa";
 const HomePage = () => {
   const [navState, setNavState] = useState(true);
@@ -106,10 +107,11 @@ const HomePage = () => {
           </div>
         </div>
         <div className="bg-black h-14 flex justify-between items-center py-4 px-6">
-          <FaJs color="yellow" size={40} />
-          <FaHtml5 color="orange" size={40} />
-          <FaReact color="doggedBlue" size={40} />
-          <FaCss3 color="yellow" size={40} />
+          <FaJs color="yellow" size={35} />
+          <FaHtml5 color="orange" size={35} />
+          <FaReact color="darkBlue" size={35} />
+          <FaCss3 color="yellow" size={35} />
+          <FaGithub color="white" size={35} />
         </div>
         {/* aboutme */}
         <div className="bg-white py-[4rem] px-[1rem] md:px-[5rem]">
@@ -363,7 +365,7 @@ const HomePage = () => {
         </div>
         {/* footer */}
         <div className="px-[1rem] md:px-[5rem] py-[4rem] bg-black text-white">
-          OsimUka
+          JOUO
         </div>
       </div>
     </div>
