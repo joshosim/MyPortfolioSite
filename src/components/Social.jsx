@@ -15,7 +15,7 @@ const Social = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[2rem] px-[1rem] md:px-[4rem]">
                 <div className="rounded-3xl bg-white p-2">
                     <div className="h-24 w-full rounded-3xl grid place-content-center bg-red-100">
-                        <FaLinkedin size={40} className="animate-bounce" color="blue" />
+                        <FaLinkedin size={40} color="blue" />
                     </div>
                     <div className="flex flex-col items-center justify-between gap-[1rem] mt-[1rem]">
                         <p className="font-bold text-2xl">
@@ -33,7 +33,7 @@ const Social = () => {
                     <div className="h-24 w-full rounded-3xl grid place-content-center bg-blue-100">
                         <FaFacebookSquare
                             size={40}
-                            className="animate-bounce"
+
                             color="blue"
                         />
                     </div>
@@ -51,7 +51,7 @@ const Social = () => {
                     <div className="h-24 w-full rounded-3xl grid place-content-center bg-red-100">
                         <FaInstagramSquare
                             size={40}
-                            className="animate-bounce"
+
                             color="red"
                         />
                     </div>
@@ -69,7 +69,7 @@ const Social = () => {
                     <div className="h-24 w-full rounded-3xl grid place-content-center bg-blue-100">
                         <FaTwitterSquare
                             size={40}
-                            className="animate-bounce"
+
                             color="blue"
                         />
                     </div>
