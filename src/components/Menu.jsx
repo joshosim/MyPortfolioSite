@@ -1,6 +1,6 @@
 import { Menu, Transition } from '@headlessui/react'
 import { HomeIcon, PhoneIcon } from '@heroicons/react/16/solid'
-import { Fragment, useEffect, useRef, useState } from 'react'
+import { Fragment } from 'react'
 import { FcAbout } from 'react-icons/fc'
 import { TbSocial } from 'react-icons/tb'
 import { TiSpanner } from 'react-icons/ti'
