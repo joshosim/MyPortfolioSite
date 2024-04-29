@@ -4,10 +4,12 @@ import { Fragment } from 'react'
 import { FcAbout } from 'react-icons/fc'
 import { TbSocial } from 'react-icons/tb'
 import { TiSpanner } from 'react-icons/ti'
+import AnchorLink from 'react-anchor-link-smooth-scroll';
+
 
 export default function Example() {
     return (
-        <div className="fixed top-2 right-4 text-right">
+        <div className="block">
             <Menu as="div" className="relative inline-block text-left">
                 <div>
                     <Menu.Button className="inline-flex w-full justify-centertext-sm font-medium text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-white/75">
@@ -29,8 +31,8 @@ export default function Example() {
                         <div className="px-1 py-1 ">
                             <Menu.Item>
                                 {({ active }) => (
-                                    <a href="#hero"> <button
-                                        className={`${active ? 'bg-violet-500 text-white' : 'text-gray-900'
+                                    <button
+                                        className={`${active ? 'bg-blue-500 text-white' : 'text-gray-900'
                                             } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                                     >
                                         {active ? (
@@ -44,14 +46,16 @@ export default function Example() {
                                                 aria-hidden="true"
                                             />
                                         )}
-                                        Home
-                                    </button></a>
+                                        <AnchorLink href="#hero">
+                                            Home
+                                        </AnchorLink>
+                                    </button>
                                 )}
                             </Menu.Item>
                             <Menu.Item>
                                 {({ active }) => (
-                                    <a href="#about"> <button
-                                        className={`${active ? 'bg-violet-500 text-white' : 'text-gray-900'
+                                    <button
+                                        className={`${active ? 'bg-blue-500 text-white' : 'text-gray-900'
                                             } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                                     >
                                         {active ? (
@@ -65,16 +69,18 @@ export default function Example() {
                                                 aria-hidden="true"
                                             />
                                         )}
-                                        About
-                                    </button></a>
+                                        <AnchorLink href="#about">
+                                            About
+                                        </AnchorLink>
+                                    </button>
                                 )}
                             </Menu.Item>
                         </div>
                         <div className="px-1 py-1">
                             <Menu.Item>
                                 {({ active }) => (
-                                    <a href="#socials"> <button
-                                        className={`${active ? 'bg-violet-500 text-white' : 'text-gray-900'
+                                    <button
+                                        className={`${active ? 'bg-blue-500 text-white' : 'text-gray-900'
                                             } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                                     >
                                         {active ? (
@@ -88,14 +94,16 @@ export default function Example() {
                                                 aria-hidden="true"
                                             />
                                         )}
-                                        Social
-                                    </button></a>
+                                        <AnchorLink href="#socials">
+                                            Socials
+                                        </AnchorLink>
+                                    </button>
                                 )}
                             </Menu.Item>
                             <Menu.Item>
                                 {({ active }) => (
-                                    <a href="#projects"> <button
-                                        className={`${active ? 'bg-violet-500 text-white' : 'text-gray-900'
+                                    <button
+                                        className={`${active ? 'bg-blue-500 text-white' : 'text-gray-900'
                                             } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                                     >
                                         {active ? (
@@ -109,8 +117,10 @@ export default function Example() {
                                                 aria-hidden="true"
                                             />
                                         )}
-                                        Projects
-                                    </button></a>
+                                        <AnchorLink href="#projects">
+                                            Projects
+                                        </AnchorLink>
+                                    </button>
                                 )}
                             </Menu.Item>
                         </div>
@@ -118,7 +128,7 @@ export default function Example() {
                             <Menu.Item>
                                 {({ active }) => (
                                     <a href="tel:+2347066530998"> <button
-                                        className={`${active ? 'bg-violet-500 text-white' : 'text-gray-900'
+                                        className={`${active ? 'bg-blue-500 text-white' : 'text-gray-900'
                                             } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                                     >
                                         {active ? (
