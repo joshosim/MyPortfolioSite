@@ -26,9 +26,7 @@ const About = () => {
                     <div>
                         <p className="font-bold">Biography</p>
                         <p className="mb-[1rem]">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                            Obcaecati laborum ipsam doloribus doloremque natus modi sint
-                            in accusantium minima fugiat, tenetur culpa.
+                            I am a Nigerian, was born in the southern part of the country and schooled at the eastern part. It was at the eastern part I was exposed to what I do today.
                         </p>
                     </div>
                     <div>

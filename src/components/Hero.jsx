@@ -9,7 +9,7 @@ const Hero = () => {
             <div className='mt-[4rem]'>
 
                 <p className="font-extrabold mb-[1rem]">
-                    Say Hi to <span className="text-pink-500"><ReactTyped strings={["Osim Uka", "your favourite web developer"]}
+                    Say Hi to <span className="text-pink-500"><ReactTyped strings={["Osim Uka", "your soon to be web developer"]}
                         typeSpeed={60}
                         backSpeed={60}
                         loop /></span>

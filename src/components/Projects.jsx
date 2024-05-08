@@ -8,38 +8,54 @@ const Projects = () => {
                 My Lastest Projects
             </h1>
             <div className="grid place-items-center">
-                <div className="flex flex-col items-start justify-between gap-4">
-                    <div className="flex flex-col md:flex-row md:items-center md:justify-between border border-white rounded-lg w-full">
+                <div className="grid md:grid-cols-2 gap-4">
+                    <div className="grid border border-white rounded-lg w-[280px]">
                         {/* <img src="" alt="" /> */}
-                        <div className="h-[200px] md:h-[160px] w-full md:w-[220px] bg-blue-300 rounded-t-lg md:rounded-tl-lg md:rounded-bl-lg"></div>
+                        <div className="h-[200px] w-full bg-blue-300 rounded-t-lg"></div>
                         <h1 className="p-2 font-extrabold text-xl">
                             Jash Book Store
                         </h1>
+                        <p className='p-2'> The purpose of this book store was to solve the problem of unavailiability of school materials for students to study with!</p>
+
+                        <button className='flex justify-center items-center m-2 bg-blue-500 p-2 font-bold rounded-lg w-1/3 hover:bg-blue-400 transition-all duration-300'>
+                            Explore
+                        </button>
+
                     </div>
-                    <div className="flex flex-col md:flex-row md:items-center md:justify-between border border-white rounded-lg w-full">
+                    <div className="grid border border-white rounded-lg w-[280px]">
                         {/* <img src="" alt="" /> */}
-                        <div className="h-[200px] md:h-[160px] w-full md:w-[220px] bg-blue-300 rounded-t-lg md:rounded-tl-lg md:rounded-bl-lg"></div>
+                        <div className="h-[200px] w-full bg-blue-300 rounded-t-lg"></div>
                         <h1 className="p-2 font-extrabold text-xl">
                             We cultivate
                         </h1>
+                        <p className='p-2'>Farming Farming Farming Farming Farming Farming Farming Farming Farming Farming Farming Farming Farming Farming Farming!</p>
+                        <button className='flex justify-center items-center m-2 bg-blue-500 p-2 font-bold rounded-lg w-1/3 hover:bg-blue-400 transition-all duration-300'>
+                            Explore
+                        </button>
                     </div>
-                    <div className="flex flex-col md:flex-row md:items-center md:justify-between border border-white rounded-lg w-full">
+                    <div className="grid border border-white rounded-lg w-[280px]">
                         {/* <img src="" alt="" /> */}
-                        <div className="h-[200px] md:h-[160px] w-full md:w-[220px] bg-blue-300 rounded-t-lg md:rounded-tl-lg md:rounded-bl-lg"></div>
-                        <h1 className='p-2'>
-                            <a href="https://jojocodeeduhub.netlify.app/" className="font-extrabold text-xl">
-                                TJJC Online Store
-                            </a>
+                        <div className="h-[200px] w-full bg-blue-300 rounded-t-lg"></div>
+                        <h1 className='p-2 font-extrabold text-xl'>
+                            TJJC Online Store
                         </h1>
+                        <p className='p-2'>Team Jojo Code Online Store is available for displaying carts and shopping items that will suit your daily needs. It was built with React JS and Dummy APIs!</p>
+                        <button className='flex justify-center items-center m-2 bg-blue-500 p-2 font-bold rounded-lg w-1/3 hover:bg-blue-400 transition-all duration-300'>
+                            <a href="https://jojocodeeduhub.netlify.app/" >
+                                Explore </a>
+                        </button>
                     </div>
-                    <div className="flex flex-col md:flex-row md:items-center md:justify-between border border-white rounded-lg w-full">
+                    <div className="grid border border-white rounded-lg w-[280px]">
                         {/* <img src="" alt="" /> */}
-                        <div className="h-[200px] md:h-[160px] w-full md:w-[220px] bg-blue-300 rounded-t-lg md:rounded-tl-lg md:rounded-bl-lg"></div>
-                        <h1 className='p-2'>
-                            <a href="https://paraganinvest.com.ng/" className="font-bold text-xl" >
-                                Paragan Prime Investment
-                            </a>
+                        <div className="h-[200px] w-full bg-blue-300 rounded-t-lg"></div>
+                        <h1 className='p-2 font-extrabold text-xl'>
+                            Paragan Prime Investment
                         </h1>
+                        <p className='p-2'> Paragan Prime Investment was built for the purpose of making investments and returning investment, was built with Django, HTML,CSS and JS!</p>
+                        <a href="https://paraganinvest.com.ng/"  > <button className='flex justify-center items-center m-2 bg-blue-500 p-2 font-bold rounded-lg w-1/3 hover:bg-blue-400 transition-all duration-300'>
+
+                            Explore
+                        </button></a>
 
                     </div>
                 </div>
