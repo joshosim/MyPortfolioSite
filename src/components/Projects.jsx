@@ -18,7 +18,8 @@ const Projects = () => {
                         <p className='p-2'> The purpose of this book store was to solve the problem of unavailiability of school materials for students to study with!</p>
 
                         <button className='flex justify-center items-center m-2 bg-blue-500 p-2 font-bold rounded-lg w-1/3 hover:bg-blue-400 transition-all duration-300'>
-                            Explore
+                            <a href=" https://github.com/joshosim/BS" >
+                                Explore </a>
                         </button>
 
                     </div>
@@ -26,11 +27,13 @@ const Projects = () => {
                         {/* <img src="" alt="" /> */}
                         <div className="h-[200px] w-full bg-blue-300 rounded-t-lg"></div>
                         <h1 className="p-2 font-extrabold text-xl">
-                            We cultivate
+                            Nifes Futo Site
                         </h1>
-                        <p className='p-2'>Farming Farming Farming Farming Farming Farming Farming Farming Farming Farming Farming Farming Farming Farming Farming!</p>
+                        <p className='p-2'>This is a frontend site for a church body/ organization, it displays different information about their
+                            activities and what they represent.</p>
                         <button className='flex justify-center items-center m-2 bg-blue-500 p-2 font-bold rounded-lg w-1/3 hover:bg-blue-400 transition-all duration-300'>
-                            Explore
+                            <a href="https://nifesfuto.netlify.app/" >
+                                Explore </a>
                         </button>
                     </div>
                     <div className="grid border border-white rounded-lg w-[280px]">
