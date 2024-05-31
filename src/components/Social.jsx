@@ -20,7 +20,7 @@ const Social = () => {
                         </div>
                         <div className="flex flex-col items-center justify-between gap-[1rem] mt-[1rem]">
                             <p className="font-bold text-2xl">
-                                1<span className="text-pink-500">K</span>
+                                126<span className="text-pink-500"></span>
                             </p>
                             <p>Linkedin Connections</p>
                             <button className="rounded-3xl py-1 px-10 border-[1px] border-black font-bold hover:bg-black hover:text-white hover:duration-300 ease-in-out">
@@ -40,11 +40,11 @@ const Social = () => {
                         </div>
                         <div className="flex flex-col items-center justify-between gap-[1rem] mt-[1rem]">
                             <p className="font-bold text-2xl">
-                                3<span className="text-pink-500">K</span>
+                                1<span className="text-pink-500"></span>
                             </p>
                             <p>Reddit Followers</p>
                             <button className="rounded-3xl py-1 px-10 border-[1px] border-black font-bold hover:bg-black hover:text-white hover:duration-300 ease-in-out">
-                                <a href="https://www.facebook.com/uka.osim.56/">Follow</a>
+                                <a href="/">Follow</a>
                             </button>
                         </div>
                     </div>
@@ -58,7 +58,7 @@ const Social = () => {
                         </div>
                         <div className="flex flex-col items-center justify-between gap-[1rem] mt-[1rem]">
                             <p className="font-bold text-2xl">
-                                1.5<span className="text-pink-500">K</span>
+                                208<span className="text-pink-500"></span>
                             </p>
                             <p>Instagram Followers</p>
                             <button className="rounded-3xl py-1 px-10 border-[1px] border-black font-bold hover:bg-black hover:text-white hover:duration-300 ease-in-out">
@@ -76,7 +76,7 @@ const Social = () => {
                         </div>
                         <div className="flex flex-col items-center justify-between gap-[1rem] mt-[1rem]">
                             <p className="font-bold text-2xl">
-                                1<span className="text-pink-500">K</span>
+                                26<span className="text-pink-500"></span>
                             </p>
                             <p>Twitter Followers</p>
                             <button className="rounded-3xl py-1 px-10 border-[1px] border-black font-bold hover:bg-black hover:text-white hover:duration-300 ease-in-out">

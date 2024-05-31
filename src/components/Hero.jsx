@@ -6,29 +6,13 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Hero = () => {
     const handleDownload = async () => {
-
-        const _url = 'https://drive.google.com/file/d/1fwHslwMnKlROdvhqXNvmpy4SiXNB4Dfk/view?usp=sharing';
-
-        // 4. Fetch the file content
-        const response = await fetch(_url);
-
-        // 5. Handle errors and response status
-        if (!response.ok) {
-            throw new Error("Failed to download file");
-        }
-
-        // 6. Create a Blob object from the response
-        const blob = await response.blob();
-
-        // 7. Create a temporary URL and trigger download (similar to previous approach)
-        const url = window.URL.createObjectURL(blob);
-        const downloadLink = document.createElement('a');
-        downloadLink.href = url;
-        downloadLink.download = "Osim_CV.pdf";
-        downloadLink.click();
-
-        // 8. Cleanup (optional)
-        window.URL.revokeObjectURL(url);
+        const pdfUrl = "MyResume.pdf"
+        const link = document.createElement('a')
+        link.href = pdfUrl
+        link.download = 'OSIMCV.pdf'
+        document.body.appendChild(link)
+        link.click()
+        document.body.removeChild(link)
     };
 
     return (

@@ -43,7 +43,7 @@ const Footer = () => {
                     <input className='outline-none border-2 border-white placeholder:text-gray-500 p-2 rounded-lg w-full mb-4 md:w-3/4' type="text" placeholder='Email' name='user_email' value={email} onChange={(e) => setEmail(e.target.value)} />
                     <input className='outline-none border-2 border-white placeholder:text-gray-500 p-2 rounded-lg w-full mb-4 md:w-3/4' type="text" placeholder='Name' name='from_name' value={name} onChange={(e) => setName(e.target.value)} />
                     <textarea className='outline-none border-2 border-white placeholder:text-gray-500 p-2 rounded-lg w-full md:w-3/4 mb-4' type="text" placeholder='Message' name='message' value={mssg} onChange={(e) => setMssg(e.target.value)} />
-                    <button type='submit' className='outline-none bg-white font-bold text-black p-2 rounded-lg w-full md:w-3/4 mb-4 hover:bg-blue-100 hover:scale-95'>Send</button>
+                    <button type='submit' className='outline-none bg-blue-500 font-bold text-black p-2 rounded-lg w-full md:w-3/4 mb-4 hover:bg-blue-600 hover:scale-95'>Send</button>
                 </form>
             </div>
         </div>

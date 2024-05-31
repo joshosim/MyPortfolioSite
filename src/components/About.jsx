@@ -32,18 +32,15 @@ const About = () => {
                     <div>
                         <p className="font-bold ">Contact</p>
                         <p className="mb-[1rem]">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Quidem, possimus natus quia nihil.
+                            Phone: +2347066530998
                         </p>
                     </div>
                     <div>
                         <div>
-                            <p>01Yrs</p>
-                            <p>Experience</p>
+                            <p>01Yrs Experience</p>
                         </div>
                         <div>
-                            <p>03+</p>
-                            <p>Clients</p>
+                            <p>03+ Clients</p>
                         </div>
                         <p>My Github Profile</p>
                         <a href="https://github.com/joshosim">
