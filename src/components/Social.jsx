@@ -1,9 +1,9 @@
 import React from 'react';
 import {
     FaLinkedin,
-    FaFacebookSquare,
     FaInstagramSquare,
     FaTwitterSquare,
+    FaRedditSquare
 } from "react-icons/fa";
 const Social = () => {
     return (
@@ -32,7 +32,7 @@ const Social = () => {
                     </div>
                     <div className="rounded-3xl bg-white p-2 w-[230px]">
                         <div className="h-24 w-full rounded-3xl grid place-content-center bg-blue-100">
-                            <FaFacebookSquare
+                            <FaRedditSquare
                                 size={40}
 
                                 color="blue"
@@ -42,7 +42,7 @@ const Social = () => {
                             <p className="font-bold text-2xl">
                                 3<span className="text-pink-500">K</span>
                             </p>
-                            <p>Facebook Followers</p>
+                            <p>Reddit Followers</p>
                             <button className="rounded-3xl py-1 px-10 border-[1px] border-black font-bold hover:bg-black hover:text-white hover:duration-300 ease-in-out">
                                 <a href="https://www.facebook.com/uka.osim.56/">Follow</a>
                             </button>
