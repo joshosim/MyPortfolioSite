@@ -27,26 +27,6 @@ const Social = () => {
                             </button>
                         </div>
                     </div>
-                    <div className="rounded-3xl bg-white p-2 w-[230px]">
-                        <div className="h-24 w-full rounded-3xl grid place-content-center bg-blue-100">
-                            <FaTwitterSquare
-                                size={40}
-
-                                color="blue"
-                            />
-                        </div>
-                        <div className="flex flex-col items-center justify-between gap-[1rem] mt-[1rem]">
-                            <p className="font-bold text-2xl">
-                                26<span className="text-pink-500"></span>
-                            </p>
-                            <p>Twitter Followers</p>
-                            <button className="rounded-3xl py-1 px-10 border-[1px] border-black font-bold hover:bg-black hover:text-white hover:duration-300 ease-in-out">
-                                <a href="https://x.com/teamjojo_code?t=nfKgPXx7JQdazld0RzhgCQ&s=09">
-                                    Follow
-                                </a>
-                            </button>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>

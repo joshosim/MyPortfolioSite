@@ -1,8 +1,8 @@
 import { Menu, Transition } from '@headlessui/react'
-import { HomeIcon, PhoneIcon } from '@heroicons/react/16/solid'
+import { HomeIcon } from '@heroicons/react/16/solid'
 import { Fragment } from 'react'
 import { FcAbout } from 'react-icons/fc'
-import { TbSocial } from 'react-icons/tb'
+import { TbSocial, TbBrandWhatsapp } from 'react-icons/tb'
 import { TiSpanner } from 'react-icons/ti'
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
@@ -127,17 +127,17 @@ export default function Example() {
                         <div className="px-1 py-1">
                             <Menu.Item>
                                 {({ active }) => (
-                                    <a href="tel:+2347066530998"> <button
+                                    <a href="https://wa.me/07066530998"> <button
                                         className={`${active ? 'bg-blue-500 text-white' : 'text-gray-900'
                                             } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                                     >
                                         {active ? (
-                                            <PhoneIcon
+                                            <TbBrandWhatsapp
                                                 className="mr-2 h-5 w-5 text-violet-400"
                                                 aria-hidden="true"
                                             />
                                         ) : (
-                                            <PhoneIcon
+                                            <TbBrandWhatsapp
                                                 className="mr-2 h-5 w-5 text-violet-400"
                                                 aria-hidden="true"
                                             />
