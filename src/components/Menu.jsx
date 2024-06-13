@@ -127,7 +127,7 @@ export default function Example() {
                         <div className="px-1 py-1">
                             <Menu.Item>
                                 {({ active }) => (
-                                    <a href="https://wa.me/07066530998"> <button
+                                    <a href="https://wa.me/+2347066530998"> <button
                                         className={`${active ? 'bg-blue-500 text-white' : 'text-gray-900'
                                             } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                                     >
