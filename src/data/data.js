@@ -13,9 +13,9 @@ export const data = [
   },
   {
     id: 2,
-    title: "TJJC Online Store",
-    desc: "Team Jojo Code Online Store is available for displaying carts and shopping items that will suit your daily needs. It was built with React JS and Dummy APIs!",
-    link: "https://jojocodeeduhub.netlify.app/",
+    title: "School Management System",
+    desc: "A School management system for easy management of school data and information to enhance productivity",
+    link: "https://github.com/joshosim/School-Management-System-sms-",
   },
   {
     id: 3,
