@@ -15,8 +15,8 @@ const Projects = () => {
                     {
                         data.map((item) => (
                             <div className="grid rounded-lg w-[280px] shadow-lg">
-                                {/* <img src="" alt="" /> */}
-                                <div className="h-[200px] w-full bg-blue-300 rounded-t-lg"></div>
+                                <img src={item.image} alt="/" className='h-[200px] w-full rounded-t-lg object-cover' />
+
                                 <h1 className='p-2 font-extrabold text-xl'>
                                     {item.title}
                                 </h1>
